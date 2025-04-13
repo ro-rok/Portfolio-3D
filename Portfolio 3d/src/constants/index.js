@@ -1,5 +1,3 @@
-
-
 const words = [
     { text: "Ideas", imgPath: "/images/ideas.svg" },
     { text: "Concepts", imgPath: "/images/concepts.svg" },
@@ -11,6 +9,15 @@ const words = [
     { text: "Code", imgPath: "/images/code.svg" },
 ];
 
+const counterItems = [
+    { value: 1, suffix: "+", label: "Years of Experience" },
+    { value: 1, suffix: "+", label: "xyz" },
+    { value: 1, suffix: "+", label: "xyz" },
+    { value: 1, suffix: "%", label: "xyz" },
+];
+
+
 export {
     words,
+    counterItems
 };
