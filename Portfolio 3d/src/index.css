@@ -459,3 +459,8 @@ section {
 .card:hover::before {
   opacity: 1;
 }
+
+/*
+html, body, a, button {
+  cursor: none;
+} */

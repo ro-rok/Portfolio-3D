@@ -82,6 +82,68 @@ const abilities = [
     },
 ];
 
+const expCards = [
+    {
+        review: "Brief of what happened / big  ",
+        imgPath: "/images/exp0.png",
+        logoPath: "/images/logo0.png",
+        title: "Programmer Analyst",
+        date: "December 2024 - Present",
+        responsibilities: [
+
+        ],
+    },
+    {
+        review: "Brief of what happened / big  ",
+        imgPath: "/images/exp1.png",
+        logoPath: "/images/logo1.png",
+        title: "Software Engineer",
+        date: "Dates",
+        responsibilities: [
+
+        ],
+    },
+    {
+        review: "Brief of what happened / big  ",
+        imgPath: "/images/exp2.png",
+        logoPath: "/images/logo2.png",
+        title: "Fullstack Engineer",
+        date: "Dates",
+        responsibilities: [
+
+        ],
+    },
+    {
+        review: "Brief of what happened / big  ",
+        imgPath: "/images/exp3.png",
+        logoPath: "/images/logo3.png",
+        title: "Analyst",
+        date: "Dates",
+        responsibilities: [
+
+        ],
+    },
+];
+
+const expLogos = [
+    {
+        name: "logo0",
+        imgPath: "/images/logo0.png",
+    },
+    {
+        name: "logo1",
+        imgPath: "/images/logo1.png",
+    },
+    {
+        name: "logo2",
+        imgPath: "/images/logo2.png",
+    },
+    {
+        name: "logo3",
+        imgPath: "/images/logo3.png",
+    },
+];
+
 
 export {
     words,
@@ -89,4 +151,6 @@ export {
     navLinks,
     logoIconsList,
     abilities,
+    expCards,
+    expLogos,
 };
