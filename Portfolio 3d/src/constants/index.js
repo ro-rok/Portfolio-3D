@@ -182,6 +182,23 @@ const techStackIcons = [
     },
 ];
 
+const socialImgs = [
+    {
+        name: "git",
+        imgPath: "/images/git.png",
+        url: "https://github.com/ro-rok/",
+    },
+    {
+        name: "linkedin",
+        imgPath: "/images/linkedin_.png",
+        url: "https://www.linkedin.com/in/krohan178",
+    },
+    {
+        name: "lintree",
+        imgPath: "/images/lt.png",
+        url: "https://linktr.ee/ro_rok",
+    },
+];
 
 
 
@@ -194,4 +211,5 @@ export {
     expCards,
     expLogos,
     techStackIcons,
+    socialImgs
 };
