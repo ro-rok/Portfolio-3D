@@ -144,6 +144,46 @@ const expLogos = [
     },
 ];
 
+const techStackIcons = [
+    {
+        name: "Python Developer",
+        modelPath: "/models/python-transformed.glb",
+        scale: 0.8,
+        rotation: [0, 0, 0],
+        position: [0, 0, 0],
+    },
+    {
+        name: "Java Developer",
+        modelPath: "/models/java-v2.glb",
+        scale: 1.35,
+        rotation: [0, 0, 0],
+        position: [0, -0.5, 0],
+    },
+    {
+        name: "AWS Developer",
+        modelPath: "/models/aws_logo-v1.glb",
+        scale: 0.38,
+        rotation: [0, 0, 0],
+        position: [0, -2, 0],
+    },
+    {
+        name: "React Developer",
+        modelPath: "/models/react_logo-transformed.glb",
+        scale: 1,
+        rotation: [0, 0, 0],
+        position: [0, 0, 0],
+    },
+    {
+        name: "DevOps",
+        modelPath: "/models/git-svg-transformed.glb",
+        scale: 0.05,
+        rotation: [0, -Math.PI / 4.5, 0],
+        position: [0, 0, 0],
+    },
+];
+
+
+
 
 export {
     words,
@@ -153,4 +193,5 @@ export {
     abilities,
     expCards,
     expLogos,
+    techStackIcons,
 };

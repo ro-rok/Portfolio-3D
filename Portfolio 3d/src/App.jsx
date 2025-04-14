@@ -6,6 +6,7 @@ import LogoSection from "./sections/LogoSection.jsx";
 import FeatureSection from "./sections/FeatureSection.jsx";
 import ExperienceSection from "./sections/ExperienceSection.jsx";
 import CustomCursor from "./components/CustomCursor.jsx";
+import TechStack from "./sections/TechStack.jsx";
 
 const App = () => {
     return (
@@ -17,6 +18,7 @@ const App = () => {
             <LogoSection />
             <FeatureSection />
             <ExperienceSection />
+            <TechStack />
         </>
     );
 };
