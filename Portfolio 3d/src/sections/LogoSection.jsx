@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from 'react';
 import gsap from 'gsap';
-import { logoIconsList } from '../constants';
+import { logoIconsList } from '../constants/index.js';
 
 const LogoIcon = ({ icon }) => (
     <div className="marquee-item flex items-center justify-center h-[64px] px-[4px]">
