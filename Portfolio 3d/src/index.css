@@ -396,30 +396,19 @@ section {
 
 /* marquee */
 .marquee {
-  width: 100dvw;
-  overflow: hidden;
   position: relative;
+  width: 100%;
 }
+
 .marquee-box {
-  display: flex;
-  align-items: center;
-  width: 200%;
-  height: 100%;
-  position: absolute;
-  overflow: hidden;
-  animation: marquee 60s linear infinite;
+  will-change: transform;
 }
+
 .marquee-item {
-  float: left;
+  flex: 0 0 auto;
 }
-@keyframes marquee {
-  0% {
-    left: 0;
-  }
-  100% {
-    left: -100%;
-  }
-}
+
+
 /* marquee end */
 
 .card {
