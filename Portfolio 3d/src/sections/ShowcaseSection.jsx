@@ -42,7 +42,7 @@ const ShowcaseSection = () => {
                     {/* Big */}
                     <div className="first-project-wrapper" ref={project1Ref}>
                         <div className="image-wrapper">
-                            <img src="/images/project1.png" alt="Ani" />
+                            <img src="./images/project1.png" alt="Ani" />
                         </div>
                         <div className="text-content">
                             <h2>1 Line Hook: Anime Recommendation System</h2>
@@ -57,13 +57,13 @@ const ShowcaseSection = () => {
                     <div className="project-list-wrapper overflow-hidden">
                         <div className="project" ref={project2Ref}>
                             <div className="image-wrapper bg-[#ffefdb]">
-                                <img src="/images/project2.png" alt="Spotify Tracker" />
+                                <img src="./images/project2.png" alt="Spotify Tracker" />
                             </div>
                             <h2>Spotify Tracker System</h2>
                         </div>
                         <div className="project" >
                             <div className="image-wrapper bg-[#ffe7eb]">
-                                <img src="/images/project3.png" alt="Movie Tracker" />
+                                <img src="./images/project3.png" alt="Movie Tracker" />
                             </div>
                             <h2>CineTracker</h2>
                         </div>
