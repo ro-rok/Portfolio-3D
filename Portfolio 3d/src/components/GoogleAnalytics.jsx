@@ -1,7 +1,7 @@
 // src/components/Analytics.jsx
 import { useEffect } from "react";
 
-const Analytics = () => {
+const GoogleAnalytics = () => {
   useEffect(() => {
     // Create script tag
     const script = document.createElement("script");
@@ -22,4 +22,4 @@ const Analytics = () => {
   return null; // No UI
 };
 
-export default Analytics;
+export default GoogleAnalytics;
