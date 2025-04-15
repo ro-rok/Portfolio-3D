@@ -9,11 +9,13 @@ import CustomCursor from "./components/CustomCursor.jsx";
 import TechStack from "./sections/TechStack.jsx";
 import Contact from "./sections/Contact.jsx";
 import Footer from "./sections/Footer.jsx";
+import Analytics from './components/Analytics.jsx';
 
 const App = () => {
     return (
         <>
             {/* <CustomCursor /> */}
+            <Analytics />
             <NavBar />
             <Hero />
             <ShowcaseSection />
