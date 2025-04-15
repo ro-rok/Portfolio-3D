@@ -1,4 +1,4 @@
-import * as THREE from "three";
+import { RectAreaLight } from "three";
 
 const HeroLights = () => (
   <>
@@ -28,7 +28,7 @@ const HeroLights = () => (
     />
     {/* area light for soft moody fill */}
     <primitive
-      object={new THREE.RectAreaLight("grey", 8, 3, 2)}
+      object={new RectAreaLight("grey", 8, 3, 2)}
       position={[1, 3, 4]}
       rotation={[-Math.PI / 4, Math.PI / 4, 0]}
       intensity={15}

@@ -1,5 +1,6 @@
 import { Environment, Float, OrbitControls, useGLTF } from "@react-three/drei";
 import { Canvas } from "@react-three/fiber";
+import { Suspense } from "react";
 
 const TechIconCardExperience = ({ model }) => {
     const scene = useGLTF(model.modelPath);
@@ -11,15 +12,17 @@ const TechIconCardExperience = ({ model }) => {
             <spotLight position={[10, 15, 10]} angle={0.3} penumbra={1} intensity={2} />
             <Environment preset="city" />
 
-            <Float speed={5.5} rotationIntensity={0.5} floatIntensity={0.9}>
-                <group
-                    scale={model.scale}
-                    rotation={model.rotation}
-                    position={model.position || [0, 0, 0]}
-                >
-                    <primitive object={scene.scene} />
-                </group>
-            </Float>
+            <Suspense fallback={null}>
+                <Float speed={5.5} rotationIntensity={0.5} floatIntensity={0.9}>
+                    <group
+                        scale={model.scale}
+                        rotation={model.rotation}
+                        position={model.position || [0, 0, 0]}
+                    >
+                        <primitive object={scene.scene} />
+                    </group>
+                </Float>
+            </Suspense>
 
             <OrbitControls enableZoom={false} />
         </Canvas>
