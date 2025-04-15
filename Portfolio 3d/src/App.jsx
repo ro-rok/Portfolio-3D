@@ -9,18 +9,12 @@ import ExperienceSection from "./sections/ExperienceSection.jsx";
 import TechStack from "./sections/TechStack.jsx";
 import Contact from "./sections/Contact.jsx";
 import Footer from "./sections/Footer.jsx";
-import Analytics from './components/GoogleAnalytics.jsx';
-import { Analytics } from "@vercel/analytics/react"
 import FeatureGlow from './sections/FeatureGlow.jsx';
-import { SpeedInsights } from "@vercel/speed-insights/next"
 
 const App = () => {
     return (
         <>
             {/* <CustomCursor /> */}
-            <Analytics />
-            <GoogleAnalytics />
-            <SpeedInsights />
             <NavBar />
             <Hero />
             <ShowcaseSection />
