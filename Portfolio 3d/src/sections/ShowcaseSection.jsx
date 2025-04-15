@@ -2,6 +2,7 @@ import React, {useRef} from 'react'
 import {gsap} from 'gsap';
 import {ScrollTrigger} from "gsap/ScrollTrigger";
 import { useGSAP}  from "@gsap/react";
+import TitleHeader from "../components/TitleHeader";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -38,11 +39,16 @@ const ShowcaseSection = () => {
     return (
         <div id="work" ref={sectionRef} className="app-showcase">
             <div className="w-full">
+            <TitleHeader
+            title="Project Showcase"
+            sub="✨ Highlighting My Key Projects"
+            />
+            <br />
                 <div className="showcaselayout">
                     {/* Big */}
                     <div className="first-project-wrapper" ref={project1Ref}>
                         <div className="image-wrapper">
-                            <img src="./images/project1.png" alt="Ani" />
+                            <img src="./images/project1.webp" alt="Ani" />
                         </div>
                         <div className="text-content">
                             <h2>1 Line Hook: Anime Recommendation System</h2>
@@ -56,14 +62,14 @@ const ShowcaseSection = () => {
                     {/* 2 Small */}
                     <div className="project-list-wrapper overflow-hidden">
                         <div className="project" ref={project2Ref}>
-                            <div className="image-wrapper bg-[#ffefdb]">
-                                <img src="./images/project2.png" alt="Spotify Tracker" />
+                            <div className="image-wrapper bg-gray-600">
+                                <img src="./images/project2.webp" alt="Spotify Tracker" />
                             </div>
                             <h2>Spotify Tracker System</h2>
                         </div>
                         <div className="project" >
-                            <div className="image-wrapper bg-[#ffe7eb]">
-                                <img src="./images/project3.png" alt="Movie Tracker" />
+                            <div className="image-wrapper bg-gray-800" ref={project3Ref}>
+                                <img src="./images/project3.webp" alt="Movie Tracker" />
                             </div>
                             <h2>CineTracker</h2>
                         </div>
