@@ -6,12 +6,7 @@ const FeatureGlow = () => {
   return (
     <section id="features" className="flex-center section-padding">
       <div className="w-full h-full md:px-10 px-5">
-        <TitleHeader
-          title="What Do I Bring to the Table?"
-          sub="✨ Features & Skills I Shine In"
-        />
-
-        <div className="lg:columns-3 md:columns-2 columns-1 mt-16">
+        <div className="lg:columns-3 md:columns-2 columns-1">
           {abilities.map((feature, index) => (
             <GlowCard key={index} card={feature} index={index}>
               <div className="flex items-start gap-4">

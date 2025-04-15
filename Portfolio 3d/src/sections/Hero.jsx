@@ -58,9 +58,15 @@ const Hero = () => {
                             <h1>that Deliver Results</h1>
                         </div>
 
-                        <p className="text-white-50 md:text-xl relative z-10 pointer-events-none">
+                        <div className="max-w-xl md:max-w-2xl lg:max-w-3xl">
+                        <p className="text-white-50 md:text-xl text-base relative z-10 pointer-events-none">
                             Hi, I’m Rohan, a full stack developer.
                         </p>
+                        <p className="text-white-50 md:text-lg text-sm relative z-10 pointer-events-none mt-2 leading-relaxed md:max-w-xl max-w-sm">
+                            I build scalable, cloud-native apps using <strong>Python</strong>, <strong>Java</strong>, <strong>React</strong>, and <strong>AWS</strong> — optimizing pipelines, APIs, and real-time experiences.
+                        </p>
+                        </div>
+
 
                         <Button
                             text="See My Work"
