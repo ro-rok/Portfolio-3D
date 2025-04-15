@@ -1,8 +1,6 @@
 
 # 🚀 Rohan's 3D Portfolio
 
-![banner](./images/project1.webp)
-
 🎯 A dynamic, visually-rich portfolio highlighting full-stack capabilities, 3D rendering, and real-time interactivity.
 
 ---
