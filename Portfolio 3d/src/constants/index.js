@@ -139,16 +139,19 @@ const expCards = [
         "Enhanced front-end with Angular SSR + lazy loading, boosting Lighthouse score from 62 to 89.",
       ],
     },
-    // {
-    //     review: "Brief of what happened / big  ",
-    //     imgPath: "./images/exp3.webp",
-    //     logoPath: "./images/logo3.webp",
-    //     title: "Analyst",
-    //     date: "Dates",
-    //     responsibilities: [
-
-    //     ],
-    // },
+    {
+      review: "Led a system overhaul replacing manual Excel workflows with Flask APIs and React dashboards—cutting delays by 50% and tripling lab reporting efficiency at scale.",
+      imgPath: "./images/exp3.webp",
+      logoPath: "./images/logo3.webp",
+      title: "Software Engineer",
+      date: "June 2019 – July 2020",
+      responsibilities: [
+          "Automated lab sample ingestion with Flask APIs, replacing Excel uploads and halving operational delay.",
+          "Built dashboard endpoints for lab supervisors to access batch metrics, improving test reporting efficiency 3x.",
+          "Optimized SQL joins and eliminated N+1 queries, reducing batch report generation from 3.4s to 1.1s.",
+          "Redesigned UI using React + Bootstrap, increasing session duration by 20% and streamlining navigation.",
+      ],
+  },
 ];
 
 const expLogos = [
