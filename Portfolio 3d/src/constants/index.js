@@ -10,7 +10,7 @@ const words = [
 ];
 
 const counterItems = [
-    { value: 3, suffix: "+", label: "Years of Fullstack Experience" },
+    { value: 4, suffix: "+", label: "Years of Fullstack Experience" },
     { value: 50, suffix: "+", label: "Features Shipped Across Frontend & Backend" },
     { value: 100, suffix: "%", label: "Zero-Downtime Deployments Achieved" },
     { value: 412, suffix: "$", label: "Infra Cost Saved Monthly on AWS" },
