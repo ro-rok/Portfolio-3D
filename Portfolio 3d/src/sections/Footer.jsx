@@ -4,8 +4,15 @@ const Footer = () => {
     return (
         <footer className="footer">
             <div className="footer-container">
-                <div className="flex flex-col justify-center md:items-start items-center">
-                    <p>Check My Socials</p>
+                <div className="flex flex-col justify-center md:items-start items-center">                      
+                <a
+                        href="https://drive.google.com/file/d/1aNeuXOcZ9USUSybSk1p1mseMKDONqtHC/view?usp=sharing"
+                        target="_blank"
+                        className="text-sm text-blue-500 hover:underline"
+                        rel="noopener noreferrer"
+                    >
+                        Check my Resume
+                    </a>
                 </div>
                 <div className="socials">
                     {socialImgs.map((socialImg, index) => (
