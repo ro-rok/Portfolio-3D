@@ -43,10 +43,12 @@ const ShowcaseSection = () => {
           <div>
             <TitleHeader title="Project Showcase" sub="✨ Highlighting My Key Projects" />
           </div>
-          <div className='app-showcase mb-0 px-5 md:px-20 pt-16 pb-4'>
+          <div className='app-showcase mb-0 px-5 md:px-20 pt-2 pb-4'>
             <div className="w-full">
               <div className="showcaselayout">
                 <div ref={project5Ref} className="first-project-wrapper">
+                  
+                  {/* AutomatedML-AI */}
                   <div className="xl:h-[70vh] md:h-[50vh] h-96 relative rounded-xl overflow-hidden">
                     <img src="/images/project5.webp" alt="AutomatedML-AI" className='w-full h-full object-contain rounded-xl absolute inset-0 border border-red-300 border-12'/>
                   </div>
@@ -56,7 +58,7 @@ const ShowcaseSection = () => {
                         target="_blank"
                         rel="noopener noreferrer"
                         className="hover:underline text-blue-400">
-                        AutomatedML AI – No-Code Model Trainer
+                        AutomatedML.AI: No-Code Model Trainer
                       </a>
                     </h2>
                     <ul className="list-disc list-inside text-white-50 space-y-1">
@@ -73,7 +75,7 @@ const ShowcaseSection = () => {
                         📊 <strong>Instant visualizations</strong>: one-click generation of model performance charts, confusion matrices, feature-importance bar plots & interactive column heatmaps.
                       </li>
                       <li>
-                        📑 <strong>Export magic</strong>: generate shareable PDF reports or Jupyter Notebooksin a single tap.
+                        📑 <strong>Export magic</strong>: generate shareable PDF reports or Jupyter Notebooks in a single tap.
                       </li>
                       <li>
                         🐳 <strong>Dockerized microservices</strong> + <strong>GitHub Actions CI/CD</strong> ensure zero-hassle deployments.
@@ -84,6 +86,8 @@ const ShowcaseSection = () => {
                 </div>
 
                 <div className="project-list-wrapper overflow-hidden">
+
+                  {/* GrindMate.AI */}
                   <div className="project" ref={project2Ref}>
                     <div className="image-wrapper">
                       <img
@@ -99,7 +103,7 @@ const ShowcaseSection = () => {
                         rel="noopener noreferrer"
                         className="hover:underline text-blue-400"
                       >
-                        MusicHub – Spotify Tracker System
+                        MusicHub: Spotify Tracker System
                       </a>
                     </h2>
                     <p className="text-white-50 text-base mt-2">
@@ -123,7 +127,7 @@ const ShowcaseSection = () => {
                       rel="noopener noreferrer"
                       className="hover:underline text-blue-400"
                     >
-                      CineTracker – Movie Review Platform
+                      CineTracker: Movie Review Platform
                     </a>
                     </h2>
                     <p className="text-white-50 text-base mt-2">
@@ -137,6 +141,7 @@ const ShowcaseSection = () => {
           </div>
           <div className='px-5 mt-0 md:px-20 pb-8 py-2'>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-11">
+              
               {/* AniExplorer */}
               <div ref={project1Ref} className="flex flex-col">
                 <div className="image-wrapper w-full h-96 overflow-hidden rounded-lg border border-green-300 border-10">
@@ -215,7 +220,7 @@ const ShowcaseSection = () => {
                       rel="noopener noreferrer"
                       className="hover:underline text-blue-400"
                     >
-                      GrindMate.AI – GenAI-Powered DSA Coach
+                      GrindMate.AI: GenAI-Powered DSA Coach
                     </a>
                   </h2>
                   <p className="text-white-50 md:text-base mt-2">
